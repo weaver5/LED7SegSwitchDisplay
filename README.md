@@ -1,2 +1,4 @@
 # LED7SegSwitchDisplay
-We want to create a unique pattern of LEDs when the joystick buttons on our board are pressed
+We want to create a unique pattern of LEDs when the joystick buttons on our board are pressed. Pressing the left joystick button will light the left LEDs and pressing the right joystick button will light the right LEDs. The number of LEDs lit will depend upon the right 3 slide switches. The right 3 slide switches will represent a number between 0-7. This number should be displayed in the seven-segment display on the far right of the board. All other seven-segment displays should be off.
+
+For example, if the slide switches are set to a binary 5 (up-down-up), then 5 LEDs will light on the right when the right joystick button is pressed and 5 LEDs will light on the left when the left joystick button is pressed. If both joystick buttons are pressed, both right and left LEDs will light. In addition to this, the right seven-segment display will show the number 5
